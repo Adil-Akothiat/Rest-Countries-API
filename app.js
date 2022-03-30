@@ -189,7 +189,6 @@ function addSinglData() {
                         const backB = document.querySelector('.button_');
                         backB.onclick = function() {
                             document.title = 'REST COUNTRIES API';
-                            window.location = 'http://127.0.0.1:5500/index.html'
                             singleCountry.removeChild(back);
                             singleCountry.removeChild(mainDiv);
                             document.querySelectorAll('.country_content').forEach(e=> e.classList.remove('remove'));
