@@ -24,6 +24,7 @@ addData();
 function addData() {
     return extractData("https://restcountries.com/v2/all").then(countries=> {
         countries.forEach(country=> {
+             if(country.name !=  'Israel') {
             const mainDiv = document.createElement('div');
             const infoDiv = document.createElement('div');
             const CountryFlag = document.createElement('img');
@@ -76,6 +77,7 @@ function addData() {
                     }
                 }
             }
+           }
         })
     });
 }
