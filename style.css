@@ -375,6 +375,9 @@ main .remove {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
+  main .srch .search {
+    width: 400px;
+  }
   main .countries img {
     height: 140px;
   }
