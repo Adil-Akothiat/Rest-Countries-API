@@ -102,7 +102,6 @@ function addSinglData() {
 
                     if(country.name ==  curr.children[1].children[0].textContent) {
                         document.title = country.name;
-                        window.location = `http://127.0.0.1:5500/index.html#/${country.name}`;
                         // console.log(window.location.pathname)
                         // document.URL = '';
                         const back = document.createElement('div');
