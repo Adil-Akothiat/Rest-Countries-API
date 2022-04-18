@@ -18,8 +18,7 @@ function  addData() {
                 }
             })
             let country = getCountry[0];
-
-
+            document.title = country.name;
             function checkData(prop, code) {
                 if(typeof country.currencies != 'undefined') {
                     return country[prop][0][code]
