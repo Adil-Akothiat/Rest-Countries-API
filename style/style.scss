@@ -106,18 +106,22 @@ main {
             border-radius: 7px 7px 0 0;
             box-shadow: 0px 2px 16px -10px #aaa;
         }
-        .info {
-            padding: 1.4rem 1.7rem;
-            text-transform: capitalize;
-            h2 {
-                font-size: 21px;
-                margin-bottom: 1rem;
-            }
-            h5 {
-                font-size: 17px;
-                line-height: 1.8;
-                span {
-                    font-weight: 300;
+        a {
+            color: #212E37;
+            text-decoration: none;
+            .info {
+                padding: 1.4rem 1.7rem;
+                text-transform: capitalize;
+                h2 {
+                    font-size: 21px;
+                    margin-bottom: 1rem;
+                }
+                h5 {
+                    font-size: 17px;
+                    line-height: 1.8;
+                    span {
+                        font-weight: 300;
+                    }
                 }
             }
         }
@@ -127,6 +131,9 @@ main {
     }
     .country_ {
         text-transform: capitalize;
+        a {
+            text-decoration: none;
+        }
         button {
             display: flex;
             align-items: center;
@@ -338,6 +345,9 @@ $boxsh: 0px 0px 12px -5px #232323;
         box-shadow: $boxsh;
     }
     main {
+        a {
+            color: #FFF;
+        }
         .search {
             input {
                 background-color: #2B3743;

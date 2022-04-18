@@ -142,22 +142,27 @@ main .country_content img {
           box-shadow: 0px 2px 16px -10px #aaa;
 }
 
-main .country_content .info {
+main .country_content a {
+  color: #212E37;
+  text-decoration: none;
+}
+
+main .country_content a .info {
   padding: 1.4rem 1.7rem;
   text-transform: capitalize;
 }
 
-main .country_content .info h2 {
+main .country_content a .info h2 {
   font-size: 21px;
   margin-bottom: 1rem;
 }
 
-main .country_content .info h5 {
+main .country_content a .info h5 {
   font-size: 17px;
   line-height: 1.8;
 }
 
-main .country_content .info h5 span {
+main .country_content a .info h5 span {
   font-weight: 300;
 }
 
@@ -168,6 +173,10 @@ main .country_content:hover {
 
 main .country_ {
   text-transform: capitalize;
+}
+
+main .country_ a {
+  text-decoration: none;
 }
 
 main .country_ button {
@@ -412,6 +421,10 @@ main .remove {
   background-color: #2B3743;
   -webkit-box-shadow: 0px 0px 12px -5px #232323;
           box-shadow: 0px 0px 12px -5px #232323;
+}
+
+.dark main a {
+  color: #FFF;
 }
 
 .dark main .search input {
