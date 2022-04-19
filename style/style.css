@@ -387,6 +387,9 @@ main .remove {
   main .countries img {
     height: 140px;
   }
+  main .srch .search {
+    width: 30rem;
+  }
   main .country_ .countri img {
     width: 480px;
   }
