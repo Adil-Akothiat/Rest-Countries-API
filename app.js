@@ -161,7 +161,7 @@ function addSinglData() {
 
                         buttonDiv.appendChild(h5button);
                         if(typeof country.borders != 'undefined') {
-                            country.borders.filter(b=> b.toLowerCase() != "israel").forEach(b=> {
+                            country.borders.filter(b=> b.toLowerCase() != "isr").forEach(b=> {
                                 const button = document.createElement('button');
                                 button.setAttribute('class','country_content');
                                 button.textContent = b;
